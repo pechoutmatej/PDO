@@ -1,8 +1,9 @@
 # Webová aplikace pro vizualizaci jízd na motocyklu
 ---
-## Kdo to je
+### Kdo to je
 Jedná se o profesora Technické univerzity v Liberci.
-## Kde pracuje
+### Kde pracuje
 Pracuje převážně na budově H liberecké Technické univerzity
-## Co potřebuje
+### Co potřebuje
 Poptává webovou aplikaci zobrazující data získaná během jízdy na motocyklu. 
+---
