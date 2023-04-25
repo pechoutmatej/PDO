@@ -17,9 +17,10 @@ Celý projekt začínáme tím, že navrhneme základní vzhled celé stránky. 
     3. Práce s daty
         1. Vytřízení relevantních dat    
         Získaná data vytřídíme na dvě skupiny, podle toho kam je budeme vykreslovat. První skupina bude vykreslována do již zmíněných informací o jízdě mimo hlavní tabulku a druhá skupina budou již data která budou přímo zobrazena v hlavní tabulce se všemi informacemi.
-        3. Datové operace  
-        adsaplaceholder
-        5. Zpřehlednění dat pro jejich vykreslení
+        2. Datové operace    
+        Jedinou datovou operací ktero budeme muset provést je výpočet průměrné rychlosti jízdy. Pro výpočet použijeme vzoreček ve kterém vzdálenost dělíme časem. Musíme si dát pozor na jednotky, čas je v databázi uložen v sekundách, vzdálenost v metrech.
+        3. Zpřehlednění dat pro jejich vykreslení  
+        Získaná data musíme převést do podoby která více vyhovuje jejich srozumitelnosti ze strany uživatele. Čas je v tabulce uložen pomocí sekund, je tedy potřeba čas převést do formátu **hodiny:minuty:sekundy**. Vzdálenost je potřeba převést na kilometry. Všechna získaná data zaokrouhlujeme na dvě desetinná místa.
 3. Frontend
     1. Stylizace webové stránky
     2. Získání dat z backendu
