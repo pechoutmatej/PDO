@@ -11,8 +11,10 @@ Celý projekt začínáme tím, že navrhneme základní vzhled celé stránky. 
 2. Backend
     1. Připojení k databázi  
     Data jsou uložena v databázi MongoDB, ke které se budeme připojovat pomocí knihovny Mongoose. Získáme connection string z klienta MongoDB. Pomocí něj se následně připojíme pomocí příkazu **mongoose.connect("***conection string**"*)**
-    2. Získání dat
-    3. Práce s daty
+    2. Získání dat  
+    Pro získání dat je nejdříve potřeba vytvořit si schéma dané tabulky, kterou chci z databáze získat. Jelikož data z databáze pouze čteme, nemusíme definovat povinnost daných parametrů, tedy zdali by bylo možné vytvořit danou tabulku bez některých atributů.
+    
+    4. Práce s daty
         1. Vytřízení relevantních dat
         2. Datové operace
         3. Zpřehlednění dat pro jejich vykreslení
