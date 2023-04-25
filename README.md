@@ -22,9 +22,12 @@ Celý projekt začínáme tím, že navrhneme základní vzhled celé stránky. 
         3. Zpřehlednění dat pro jejich vykreslení  
         Získaná data musíme převést do podoby která více vyhovuje jejich srozumitelnosti ze strany uživatele. Čas je v tabulce uložen pomocí sekund, je tedy potřeba čas převést do formátu **hodiny:minuty:sekundy**. Vzdálenost je potřeba převést na kilometry. Všechna získaná data zaokrouhlujeme na dvě desetinná místa.
 3. Frontend
-    1. Stylizace webové stránky
-    2. Získání dat z backendu
-    3. Vykreslení dat na webové stránce
+    1. Stylizace webové stránky  
+    Tvoříme stránku pro interní použití. Nemusíme tudíž myslet na poutavý design, vynechat prostor pro reklamu či pro upozornění o využívání cookies. Zaměříme se tedy na barevné odlišení jednotlivých segmentů a jejich vizuální úpravu. Horní, informační, panel obsahující data o zobrazované jízdě zobrazíme tmavší barvou, tabulku s daty samotnými vybarvíme světlejším odstínem barvy horního panelu.
+    2. Získání a vykreslení dat z backendu  
+    Data z backendu propíšeme do frontendu naší aplikace pomocí Node.js frameworku Express.js. Zjednodušeně píšeme HTML dokument, ve kterém místa, kde chceme data zobrazit označíme pomocí znaků procenta.
 4. Hostování webové aplikace
-    1. Hledání vhodného hostingu
-    2. Zprovoznění aplikace online
+    1. Hledání vhodného hostingu  
+    Při hledání vhodného hostingu musíme uvažovat nad několika faktory. Jednoduchosti nasazení, cena pronájmu hostingu a například také podpora, kterou budeme moci využít při problémech s chodem či nasazení naší aplikace. V případě placeného hostingu se musíme zaměřit na jednotlivé úrovně předplatného a na jeho jednotlivé výhody. To z důvodu abychom neplatili zbytečně příliš a nebo naopak neměli potíže s malým výkonem serveru.
+    2. Zprovoznění aplikace online  
+    Velká část dnešních hostingů, zvláště těch které více podporují různé testovací projekty umožňují přímé nahrání kódu přes github. To nám velice zjednodušuje nasazení naší aplikace online, jelikož se její nasazení provede při úspěšném nahrání nové verze na github. V některých případech si hosting nemusí rozumět s použitými styly či knihovnami, je tedy potřeba vše důsledně otestovat, popřípadě zvolit knihovnu či styl jiný.
