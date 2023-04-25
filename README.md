@@ -12,12 +12,14 @@ Celý projekt začínáme tím, že navrhneme základní vzhled celé stránky. 
     1. Připojení k databázi  
     Data jsou uložena v databázi MongoDB, ke které se budeme připojovat pomocí knihovny Mongoose. Získáme connection string z klienta MongoDB. Pomocí něj se následně připojíme pomocí příkazu **mongoose.connect("***conection string**"*)**
     2. Získání dat  
-    Pro získání dat je nejdříve potřeba vytvořit si schéma dané tabulky, kterou chci z databáze získat. Jelikož data z databáze pouze čteme, nemusíme definovat povinnost daných parametrů, tedy zdali by bylo možné vytvořit danou tabulku bez některých atributů.
+    Pro získání dat je nejdříve potřeba vytvořit si schéma dané tabulky, které chceme z databáze získat. Jelikož data z databáze pouze čteme, nemusíme definovat povinnost daných parametrů, tedy zdali by bylo možné vytvořit danou tabulku bez některých atributů.
     ![img1](schema.jpg)
     3. Práce s daty
-        1. Vytřízení relevantních dat
-        2. Datové operace
-        3. Zpřehlednění dat pro jejich vykreslení
+        1. Vytřízení relevantních dat    
+        Získaná data vytřídíme na dvě skupiny, podle toho kam je budeme vykreslovat. První skupina bude vykreslována do již zmíněných informací o jízdě mimo hlavní tabulku a druhá skupina budou již data která budou přímo zobrazena v hlavní tabulce se všemi informacemi.
+        3. Datové operace  
+        adsaplaceholder
+        5. Zpřehlednění dat pro jejich vykreslení
 3. Frontend
     1. Stylizace webové stránky
     2. Získání dat z backendu
