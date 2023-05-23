@@ -1,11 +1,5 @@
 # Webová aplikace pro vizualizaci jízd na motocyklu
 ---
-### Kdo to je
-Jedná se o profesora Technické univerzity v Liberci.
-### Kde pracuje
-Pracuje převážně na budově H liberecké Technické univerzity.
-### Co potřebuje
-Poptává webovou aplikaci zobrazující data získaná během jízdy na motocyklu.
 1. Vytvoření kostry webové stránky  
 Celý projekt začínáme tím, že navrhneme základní vzhled celé stránky. V našem případě bude vzhled velice jednoduchý a stručný. Hlavním elementem stránky bude tabulka s vykreslenými daty. Tento element umístíme doprostřed, tak aby vše uživatel okamžitě viděl. Nad tabulku umístíme informace o jízdě ze které jsou data získána, tedy datum a motocykl ze kterého je jízda zaznamenána. Projekt navrhujeme v Expresu, tudíž vše stylizujeme pomocí html a css.
 2. Backend
